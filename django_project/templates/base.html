@@ -1,0 +1,8 @@
+<!-- this is a base template that can be added to an html page.-->
+<header>
+    <a href="{% url 'home' %}">Home</a> |
+    <a href="{% url 'calc' %}">Calculate</a>
+  </header>
+  
+  {% block content %} {% endblock content %}
+  
